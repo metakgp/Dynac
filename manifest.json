@@ -1,0 +1,25 @@
+{
+  "name": "Dynac-KGP-ERP Prettify",
+  "description": "Enhances your CV making experience with IIT KGP ERP providing real-time updates to any changes made.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "ERP Extension",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs",
+    "webNavigation"
+  ],
+  "icons": {
+    "16": "images/logo-white.png",
+    "32": "images/logo-white.png",
+    "48": "images/logo-white.png",
+    "128": "images/logo-white.png"
+  }
+}
