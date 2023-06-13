@@ -1,8 +1,8 @@
+//Begin
 var cvwindow;
 cvwindow = window.open("", "_blank", "height=800,width=601");
 var oogway = document.getElementById("myframe").contentDocument.documentElement; //parent
 var student_name = oogway.querySelector("#full_name").value;
-//only proper vertical spacing and final touches remaining
 
 // -----------------------------------------//---------------------------------------//
 
@@ -51,7 +51,6 @@ function fill_xtras() {
 
 
 function fill_assigner() {
-    //console.log("Called fill assigner fn");
     var assigner = new Map();
     for (let i = 0; i < element_fields.length; i++)
         assigner.set(element_fields[i], []); //map of objects for element holders
@@ -72,13 +71,11 @@ function fill_assigner() {
             "incv2": incv2,
             "incv3": incv3
         });
-        //evc_change(oogway.querySelector("#standard" + i));
     }
     return assigner;
 }
 
 function display_content_cv1(element_field) {
-    //console.log("Called display content fn");
     var assigner = fill_assigner();
     var size = assigner.get(element_field).length;
     var return_object = ``;
@@ -92,7 +89,6 @@ function display_content_cv1(element_field) {
 };
 
 function display_cv1_byorder() {
-    //console.log("Called display by order fn");
     var return_object = ``;
     var xtras = fill_xtras();
     for (let i = 0; i < cv1_pref.length; i++) {
@@ -130,14 +126,13 @@ function render_cv() {
                             </style>
                             </head>
                             <div class="main_body">
-                                <p><b>Name:</b> ${student_name}</p>
-                                <p>Space</p><br><br>
+                                <p><b>Name:</b> ${student_name}</p><br>
+                                <p>[Educational Details go here]</p><br><br><br>
                                 ${display_cv1_byorder()}
                             </div>`;
 
     cvwindow.document.write(writing_element);
     cvwindow.document.close();
-    //cvwindow.blur();
 };
 
 render_cv();
@@ -165,7 +160,6 @@ evc_text(cw_info); evc_text(sknexp); evc_text(eaa);
 var element_table = oogway.querySelector("#profTab");
 var element_table_child = element_table.querySelectorAll("#profTr");
 
-//console.log(p1, element_table_child[0].getElementsByClassName("cke_wysiwyg_frame cke_reset")[0]);
 for (let i = 7; i <= 56; i++){
     var category = oogway.querySelector("#standard" + i);
     var cat_head = oogway.querySelector("#university" + i);
@@ -177,7 +171,6 @@ for (let i = 7; i <= 56; i++){
     evc_change(incv);
     evc_text(etc_des.contentDocument.documentElement.getElementsByTagName("body")[0]);
 }
-//evc_change(oogway.querySelector("#standard7"));
 
 // Preference order of cv1
 pref1_parent.addEventListener('change', () => { populate_pref1(); render_cv(); }, false);

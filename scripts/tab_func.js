@@ -1,5 +1,6 @@
 // Trigger the renderer.js
-
+//"tabs",
+//"webNavigation"
 var dis = document.getElementById("not_url_display");
 document.getElementById("CV1").addEventListener('click', () => {
     chrome.tabs.query({ currentWindow: true, active: true },
