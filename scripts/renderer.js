@@ -1,19 +1,21 @@
 //Begin
 var cvwindow;
+
 cvwindow = window.open("", "_blank", "height=800,width=601");
 var oogway = document.getElementById("myframe").contentDocument.documentElement; //parent
-var student_name = oogway.querySelector("#full_name").value;
-
-// -----------------------------------------//---------------------------------------//
-
-//Populating cv1 preference order, initially
-var cv1_pref = []  // Stores preference order of elements for cv1
 try {
     var pref1_parent = oogway.querySelector("#cv1_pref1").parentElement;
 } catch {
     cvwindow.document.write("Oops! Something went wrong");
     throw new Error("Something went wrong");
 }
+
+var student_name = oogway.querySelector("#full_name").value;
+
+// -----------------------------------------//---------------------------------------//
+
+//Populating cv1 preference order, initially
+var cv1_pref = []  // Stores preference order of elements for cv1
 
 function populate_pref1() {
     cv1_pref.splice(0, cv1_pref.length);
