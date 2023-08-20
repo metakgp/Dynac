@@ -42,13 +42,11 @@
 
 - [About The Project](#about-the-project)
   - [Supports](#supports)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgments)
-- [Additional documentation](#additional-documentation)
+- [Maintainer(s)](#maintainers)
 
 </details>
 
