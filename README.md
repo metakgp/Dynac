@@ -47,6 +47,7 @@
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgments)
 - [Maintainer(s)](#maintainers)
+- [Miscelleneous](#miscelleneous)
 
 </details>
 
@@ -137,6 +138,17 @@ Please refer to the [website][website-url] for instructions about the usage of t
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Miscelleneous
+
+Do consider looking at other paradigms of this documentation
+
+- [License used](/LICENSE)
+- [Code Of Conduct](/.github/CODE_OF_CONDUCT.md)
+- [How to contribute?](/.github/CONTRIBUTING.md)
+- [Security](/.github/SECURITY.md)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 <!-- MARKDOWN LINKS & IMAGES -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/metakgp/dynac.svg?style=for-the-badge
@@ -148,7 +160,7 @@ Please refer to the [website][website-url] for instructions about the usage of t
 [issues-shield]: https://img.shields.io/github/issues/metakgp/dynac.svg?style=for-the-badge
 [issues-url]: https://github.com/metakgp/dynac/issues
 [license-shield]: https://img.shields.io/github/license/metakgp/dynac.svg?style=for-the-badge
-[license-url]: https://github.com/metakgp/dynac/blob/master/LICENSE.txt
+[license-url]: https://github.com/metakgp/dynac/blob/master/LICENSE
 [wiki-shield]: https://custom-icon-badges.demolab.com/badge/metakgp_wiki-grey?logo=metakgp_logo&logoColor=white&style=for-the-badge
 [wiki-url]: https://wiki.metakgp.org
 [web-store-url]: https://chrome.google.com/webstore/detail/dynac-kgp-erp/hlfjmfmnklaknaahfeofbcifgemgaokd
