@@ -10,10 +10,7 @@
     "default_title": "Dynac Extension",
     "default_popup": "index.html"
   },
-  "permissions": [
-    "activeTab",
-    "scripting"
-  ],
+  "permissions": ["activeTab", "scripting"],
   "icons": {
     "16": "images/logo_black_bg.png",
     "32": "images/logo_black_bg.png",
