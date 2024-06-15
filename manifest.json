@@ -3,9 +3,6 @@
   "description": "Enhances your CV making experience with IIT KGP ERP by providing real-time updates to any changes made.",
   "version": "1.0",
   "manifest_version": 3,
-  "background": {
-    "service_worker": "background.js"
-  },
   "action": {
     "default_title": "Dynac Extension",
     "default_popup": "index.html"
@@ -16,5 +13,11 @@
     "32": "images/logo_black_bg.png",
     "48": "images/logo_black_bg.png",
     "128": "images/logo_black_bg.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "test@test.com",
+      "strict_min_version": "57.0"
+    }
   }
 }
