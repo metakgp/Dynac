@@ -16,7 +16,7 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "test@test.com",
+      "id": "dynac@metakgp.org",
       "strict_min_version": "57.0"
     }
   }
